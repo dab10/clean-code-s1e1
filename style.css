@@ -32,7 +32,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .new-task__content {
   display: flex;
@@ -147,7 +147,7 @@
 }
 
 .task_width {
-  width: 226px
+  width: 226px;
 }
 
 .delete-button__img {
@@ -163,7 +163,7 @@
 /* Completed */
 
 .complete-task-list .task_text-content {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
@@ -171,13 +171,13 @@
 
 .incomplete-task-list .task-list-item .task_input,
 .complete-task-list .task-list-item .task_input { 
-  display: none
+  display: none;
 }
 
 .incomplete-task-list .task-list-item.edit-mode .task_input,
 .complete-task-list .task-list-item.edit-mode .task_input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .incomplete-task-list .task-list-item.edit-mode .task_text-content,
