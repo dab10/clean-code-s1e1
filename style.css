@@ -22,7 +22,7 @@
   .header { 
     text-align: center;
   }
-  
+
 }
 .main {
   display: block;
@@ -40,7 +40,7 @@
 
 .complete-task-list,
 .incomplete-task-list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
@@ -48,7 +48,7 @@
 .incomplete-task__title_no-bullet,
 .task-list-item_no-bullet,
 .complete-task__title_no-bullet {
-  list-style:none;
+  list-style: none;
 }
 
 .new-task__content_no-outline,
@@ -57,7 +57,7 @@
 .task_no-outline,
 .edit-button_no-outline,
 .delete-button_middle_no-outline{
-  outline:none;
+  outline: none;
 }
 
 .add-button,
@@ -171,16 +171,16 @@
 
 .incomplete-task-list .task-list-item .task_input,
 .complete-task-list .task-list-item .task_input { 
-  display:none
+  display: none
 }
 
 .incomplete-task-list .task-list-item.edit-mode .task_input,
 .complete-task-list .task-list-item.edit-mode .task_input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .incomplete-task-list .task-list-item.edit-mode .task_text-content,
 .complete-task-list .task-list-item.edit-mode .task_text-content { 
-  display:none;
+  display: none;
 }
