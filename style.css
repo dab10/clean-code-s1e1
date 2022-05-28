@@ -1,18 +1,22 @@
 /* Basic Style */
+
 .wrapper {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header__img {
   width: 100%;
 }
+
 .header__link {
   font-family: Fantasy, cursive;
 }
@@ -24,16 +28,19 @@
   }
 
 }
+
 .main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .new-task__content {
   display: flex;
 }
@@ -56,7 +63,7 @@
 .checkbox_no-outline,
 .task_no-outline,
 .edit-button_no-outline,
-.delete-button_middle_no-outline{
+.delete-button_middle_no-outline {
   outline: none;
 }
 
@@ -77,6 +84,7 @@
 .delete-button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 
 .incomplete-task__title,
@@ -103,15 +111,18 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .task:focus {
   color: #333;
 }
 
 /* New Task */
+
 .new-task__title {
   display: block;
   margin: 0 0 20px;
 }
+
 .new-task__content_width {
   width: 318px;
 }
@@ -133,7 +144,6 @@
 .delete-button_middle {
   vertical-align: middle;
 }
-
 
 .checkbox {
   margin: 0 10px;
