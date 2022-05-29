@@ -18,9 +18,13 @@ body {
 }
 
 @media (max-width:768px) {
-.header { text-align: center;
+
+  .header {
+    text-align: center;
+  }
+
 }
-}
+
 .main {
     display: block;
     width: 500px;
@@ -118,12 +122,12 @@ li > label {
 li >    input[type="text"] {
     width: 226px
 }
-button.delete-btn img {
+.delete-btn img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-button.delete-btn img:hover {
+.delete-btn img:hover {
     transform: rotateZ(0);
 }
 
