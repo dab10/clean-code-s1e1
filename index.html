@@ -1,67 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Todo App</title>
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" media="screen">
-</head>
-<body>
-  <div class="wrapper">
-    <header class="header">
-      <img class="header__img" src="./eisenhower-matrix.jpg" alt="The Eisenhower Matrix">
-      <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-      <h1>The Eisenhower Matrix</h1>
-    </header>
-    <main class="main">
-      <section class="new-task">
-        <h2><label class="new-task__title new-task__title_no-bullet" for="new-task">Add Item</label></h2>
-        <div class="new-task__content">
-          <input id="new-task" class="task task_input new-task__content_no-outline new-task__content_width" type="text">
-          <button class="add-button add-button_no-outline">Add</button>
-        </div>
-      </section>
-      <section class="incomplete-task">
-        <h2 class="incomplete-task__title incomplete-task__title_no-bullet">Todo</h2>
-        <ul id="incomplete-tasks" class="incomplete-task-list">
-          <li class="task-list-item task-list-item_no-bullet">
-            <input type="checkbox" class="checkbox checkbox_middle checkbox_no-outline">
-            <label class="task task_text-content task_middle">Pay Bills</label>
-            <input type="text" class="task task_input task_no-outline task_width task_middle">
-            <button class="edit-button edit-button_no-outline edit-button_middle">Edit</button>
-            <button class="delete-button delete-button_middle delete-button_middle_no-outline">
-              <img class="delete-button__img" src="./remove.svg" alt="">
-            </button>
-          </li>
-          <li class="task-list-item task-list-item_no-bullet edit-mode">
-            <input type="checkbox" class="checkbox checkbox_middle checkbox_no-outline">
-            <label class="task task_text-content task_middle">Go Shopping</label>
-            <input type="text" value="Go Shopping" class="task task_input task_no-outline task_width task_middle">
-            <button class="edit-button edit-button_no-outline edit-button_middle">Save</button>
-            <button class="delete-button delete-button_middle delete-button_middle_no-outline">
-              <img class="delete-button__img" src="./remove.svg" alt="">
-            </button>
-          </li>
-        </ul>
-      </section>
-      <section class="complete-task">
-        <h2 class="complete-task__title complete-task__title_no-bullet">Completed</h2>
-        <ul id="completed-tasks" class="complete-task-list">
-          <li class="task-list-item task-list-item_no-bullet">
-            <input type="checkbox" class="checkbox checkbox_middle checkbox_no-outline" checked>
-            <label class="task task_text-content task_middle">See the Doctor</label>
-            <input type="text" class="task task_input task_no-outline task_width task_middle">
-            <button class="edit-button edit-button_no-outline edit-button_middle">Edit</button>
-            <button class="delete-button delete-button_middle delete-button_middle_no-outline">
-              <img class="delete-button__img" src="./remove.svg" alt="">
-            </button>
-          </li>
-        </ul>
-      </section>
-    </main>
-  </div>
-  <script src="app.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" media="screen">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <img class="header__img" src="./eisenhower-matrix.jpg" alt="The Eisenhower Matrix">
+        <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+        <h1>The Eisenhower Matrix</h1>
+      </header>
+      <main class="main">
+        <section class="new-task">
+          <h2><label class="new-task__title new-task__title_no-bullet" for="new-task">Add Item</label></h2>
+          <div class="new-task__content">
+            <input id="new-task" class="task task_input new-task__content_no-outline new-task__content_width" type="text">
+            <button class="add-button add-button_no-outline">Add</button>
+          </div>
+        </section>
+        <section class="incomplete-task">
+          <h2 class="incomplete-task__title incomplete-task__title_no-bullet">Todo</h2>
+          <ul id="incomplete-tasks" class="incomplete-task-list">
+            <li class="task-list-item task-list-item_no-bullet">
+              <input type="checkbox" class="checkbox checkbox_middle checkbox_no-outline">
+              <label class="task task_text-content task_middle">Pay Bills</label>
+              <input type="text" class="task task_input task_no-outline task_width task_middle">
+              <button class="edit-button edit-button_no-outline edit-button_middle">Edit</button>
+              <button class="delete-button delete-button_middle delete-button_middle_no-outline">
+                <img class="delete-button__img" src="./remove.svg" alt="">
+              </button>
+            </li>
+            <li class="task-list-item task-list-item_no-bullet edit-mode">
+              <input type="checkbox" class="checkbox checkbox_middle checkbox_no-outline">
+              <label class="task task_text-content task_middle">Go Shopping</label>
+              <input type="text" value="Go Shopping" class="task task_input task_no-outline task_width task_middle">
+              <button class="edit-button edit-button_no-outline edit-button_middle">Save</button>
+              <button class="delete-button delete-button_middle delete-button_middle_no-outline">
+                <img class="delete-button__img" src="./remove.svg" alt="">
+              </button>
+            </li>
+          </ul>
+        </section>
+        <section class="complete-task">
+          <h2 class="complete-task__title complete-task__title_no-bullet">Completed</h2>
+          <ul id="completed-tasks" class="complete-task-list">
+            <li class="task-list-item task-list-item_no-bullet">
+              <input type="checkbox" class="checkbox checkbox_middle checkbox_no-outline" checked>
+              <label class="task task_text-content task_middle">See the Doctor</label>
+              <input type="text" class="task task_input task_no-outline task_width task_middle">
+              <button class="edit-button edit-button_no-outline edit-button_middle">Edit</button>
+              <button class="delete-button delete-button_middle delete-button_middle_no-outline">
+                <img class="delete-button__img" src="./remove.svg" alt="">
+              </button>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+    <script src="app.js"></script>
+  </body>
 </html>
