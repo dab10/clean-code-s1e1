@@ -64,7 +64,7 @@
 .checkbox_no-outline,
 .task_no-outline,
 .edit-button_no-outline,
-.delete-button_middle_no-outline {
+.delete-button_no-outline {
   outline: none;
 }
 
